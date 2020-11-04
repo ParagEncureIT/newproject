@@ -12,6 +12,7 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		echo "**";
+		echo "test changes";
 		$data['data'] = $this->crud_model->get_data();
 		$this->load->view('view',$data);
 	}
